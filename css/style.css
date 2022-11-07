@@ -1,0 +1,226 @@
+body::-webkit-scrollbar {
+    width: 10px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #0F0419;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00ffe1;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 2px solid #fff700;
+    /* creates padding around scroll thumb */
+}
+
+#texto{
+    font-size: x-large;
+}
+#page-top {
+    margin: 0;
+    background-color: #0F0419;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto Slab";
+    color: rgba(224, 225, 221);
+}
+
+#navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #0F0419;
+    font-family: "Roboto Slab";
+}
+
+#navItem {
+    color: rgba(224, 225, 221, 0.5);
+    font-size: medium;
+    text-decoration: none;
+}
+
+#navItem:hover {
+    color: rgba(224, 225, 221, 1);
+    text-decoration: overline;
+}
+
+#logo {
+    font-family: "Silkscreen";
+    font-size: large;
+    color: rgba(224, 225, 221, 0.5);
+    text-decoration: none;
+}
+
+#navbar #logo:hover {
+    font-size: x-large;
+    transition: 0.2s;
+    color: rgba(224, 225, 221, 1);
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+#topo {
+    padding-top: 20.5rem;
+    padding-bottom: 6rem;
+    background-image: url("../assets/imgs/topo.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 97vh;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#titulo {
+    font-family: "Roboto Slab";
+    text-align: center;
+    color: #fff;
+}
+
+#subtitulo {
+    color: #fff;
+    font-family: "Roboto Slab";
+}
+
+#botao {
+    margin-top: 1%;
+    color: #fff;
+    border-color: #fff;
+    border-width: 0.5vh;
+}
+
+#sobre {
+    width: 90%;
+    font-size: 50;
+    background-color: #140220;
+    padding: 5%;
+    margin-top: 2%;
+}
+
+#cert {
+    width: 90%;
+    font-size: 50;
+    background-color: #140220;
+    padding: 5%;
+    margin-top: 2%;
+}
+
+#posGrad {
+    width: 90%;
+    font-size: 50;
+    background-color: #140220;
+    padding: 5%;
+    margin-top: 2%;
+}
+#mercTrab {
+    width: 90%;
+    font-size: 50;
+    background-color: #140220;
+    padding: 5%;
+    margin-top: 2%;
+}
+#eu{
+    width: 90%;
+    font-size: 50;
+    background-color: #140220;
+    padding: 5%;
+    margin-top: 2%;
+}
+#cuphead{
+   
+}
+#sectionTitle {
+    font-family: "Silkscreen";
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#bolinha {
+    color: #00ffe1;
+    font-size: larger;
+}
+
+#entrevista {
+    width: 100%;
+    height: 60vh;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+#imageSection1{
+    display: block;
+    position: absolute;
+    left: 13%;
+    margin-bottom: 20%;
+}
+#imageSection2{
+    right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#carouselExampleCaptions{
+    border: #00ffe1;
+    border-style: solid;
+}
+#faculcard{
+    background-color: #ffffff;
+}
+#logopos{
+    background-color: #a0a0a0;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease-out 100ms 
+}
+#logos{
+    width: 120px;
+    height: 120px;
+}
+#logopos:hover{
+    transform: scale(1.1);
+}
+#imgstl{
+    width: 100%;
+    border-style: solid;
+    border-color: #00ffe1;
+}
+#imageSection3{
+    background-color: white;
+    width: 100%;
+    margin-top: 30%;
+    border-style: solid;
+    border-color: #00ffe1;
+}
+#catGif{
+    
+    width: 60%;
+}
+#caixa1{
+    transition: transform 0.3s ease-out 100ms 
+}
+#caixa1:hover{
+    transform: scale(1.05);
+}
+#correndin{
+    height:25px;
+    width:20px;
+    background:url("../assets/imgs/kirby.png") -8px -106px no-repeat;
+    animation: anima_corre 0.60s steps(8) infinite;
+}
+@keyframes animacaixa{
+    100%{
+        transform: scale(1.1);
+    }
+}
+@keyframes anima_corre{
+    100%{background-position-x: -195px;}
+}
